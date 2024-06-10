@@ -1,0 +1,236 @@
+*{
+  list-style: none;
+}
+header{
+  z-index: 999;
+}
+:root {
+  --main-color: #5143d9;
+   --aside-bg: #222529;
+   --gray-color:#f7f7f7;
+}
+body{
+  background-color:var(--aside-white-bg);
+}
+header{
+  background-color:var(--aside-white-bg);
+}
+/* .container{
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-evenly;
+} */
+.discover-button {
+  background-color: rgba(81, 67, 217, 0.1);
+  color: var(--main-color);
+}
+.nav-menu-1:hover {
+  transition: 0.4s ease-in-out;
+  background-color: rgba(81, 67, 217, 0.1);
+  border-radius: 10px; 
+}
+.nav-menu-1 a:hover{
+  color: #5143d9;
+}
+.fa-bell{
+  margin-left: -2px;
+}
+.discover-button:hover {
+  transition: 0.4s ease-in-out;
+  background-color: var(--main-color);
+  color: white;
+}
+.home-images-1 {
+  position: absolute;
+  top: 40px;
+  left: -7px;
+}
+.home-images-2 {
+  position: absolute;
+  top: 120px;
+  left: -20px;
+}
+.headphone-home {
+  position: absolute;
+  top: -40px;
+  right: -40px;
+}
+.fill-warning {
+  fill: #f7c32e !important;
+}
+.home-1 {
+  font-size: 4rem !important;
+}
+.form-label {
+  position: absolute;
+  left: 370px;
+  bottom: -17px;
+  font-size: 18px;
+}
+.check-content-1 i {
+  color: gray;
+  background-color:var(--aside-white-bg);
+}
+.form-input {
+  border: 1px solid gray;
+}
+.form-control-border {
+  width: 100%;
+}
+.Check-Available {
+  top: 23%;
+  z-index: 1;
+  width: 157%;
+  padding: 20px 10px;
+  /* background-color: white; */
+}
+.search-icon {
+  padding: 20px 25px;
+  margin-top: -8px;
+  background-color: var(--main-color);
+  color: white;
+  border-radius: 50%;
+}
+.fa-play {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+.check-position {
+  position: absolute;
+  top: 600px;
+}
+.line-color {
+  position: absolute;
+  position: absolute;
+  top: 320px;
+  left: 506px;
+}
+.fill-primary {
+  fill: rgb(81, 67, 217, 0.7) !important;
+}
+.card-contant{
+  width: max-content;
+}
+.navbar-color ul li a:hover {
+  color: #5143d9;
+  transition: 0.4s ease-in-out;
+}
+.blink-button {
+  width: 10px;
+  height: 10px;
+  background: #d6293e;
+  border-radius: 50%;
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  z-index: 1;
+}
+.animation-blink {
+  animation: blink 2s infinite;
+}
+@keyframes blink {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+.notif-badge {
+  width: 10px;
+  height: 10px;
+  background: #e73f53;
+  border-radius: 50%;
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  z-index: 1;
+}
+.header-content{
+  position: absolute !important;
+  top: 180% !important;
+  left: -455px !important;
+}
+.border-primary {
+  --bs-border-opacity: 1;
+  border-color: #5143d9!important;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  font-size: 18px;
+  background: var(--bs-body-bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 360px !important; */
+}
+.fill-primary-2 {
+  fill: rgb(169 168 179 / 70%) !important;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.icon-lg {
+  width: 3.5rem;
+  height: 3.5rem;
+  line-height: 3.5rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
+.image-scale:hover{
+  transform: scale(1.01);
+  transition: all 0.5s ease-in-out;
+}
+
+.grayscale {
+  width: 65%;
+  filter: grayscale(100%);
+  transition: all 0.6s ease;
+}
+.grayscale:hover{
+  filter: grayscale(0%);
+  transition: all 0.6s ease-out;
+}
+.bg-facebook {
+  background-color: #5475bc;
+  color: #fff;
+}
+.bg-instagram {
+  background-color:#af2767;
+  color: #fff;
+}
+.bg-twitter {
+  background-color:#3aacdd;
+  color: #fff;
+}
+.bg-linkedin{
+  background-color:#207eb4;
+  color: #fff;
+}
+/* .light{
+  background-color: white;
+  color: #a1a1a8;
+}
+.dark{
+  background-color: #222529;
+  color: #a1a1a8;
+} */
+.fill-mode {
+  fill: white !important;
+}
+.border-dashed {
+  border-style: dashed !important;
+}
+.fill-info {
+  fill: #17a2b8 !important;
+}
+/* .fa-expand:hover{
+  display: block;
+} */

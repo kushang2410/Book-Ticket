@@ -1,0 +1,168 @@
+@media (max-width: 1400px) {
+  .Check-Available {
+    width: 157%;
+  }
+
+  .cab-image {
+    height: 600px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .Check-Available {
+    width: 185%;
+  }
+
+  .cab-image {
+    height: 500px;
+  }
+}
+
+@media (max-width: 992px) {
+  .search-icon {
+    margin-left: 60px;
+  }
+
+  .Check-Available {
+    top: 11%;
+    width: 195%;
+  }
+
+  .cab-image {
+    height: 400px;
+  }
+
+  .check-position {
+    top: 49%;
+  }
+
+  .line-color {
+    left: 227px;
+  }
+
+  .margin-180 {
+    margin-left: 180px;
+  }
+}
+
+@media (max-width: 768px) {
+  .Check-Available {
+    width: 70%;
+    top: 136%;
+    left: 70px;
+  }
+
+  .cab-image {
+    height: 400px;
+  }
+
+  .line-color {
+    left: 232px;
+  }
+
+  .search-icon {
+    margin-left: 108px;
+  }
+
+  .check-margin {
+    margin-left: 42px;
+  }
+}
+
+@media (max-width: 576px) {
+  .Check-Available {
+    width: 70%;
+    top: 100%;
+    left: 70px;
+  }
+
+  .cab-image {
+    height: 200px;
+  }
+
+  .check-margin {
+    margin-left: 0px;
+  }
+
+  .search-icon {
+    margin-left: 108px;
+  }
+
+  .check-position {
+    display: none;
+    top: 100%;
+  }
+
+  .poll {
+    width: 300px;
+  }
+
+  .headphone-home {
+    right: 48px;
+  }
+
+  .container-create {
+    width: 100%;
+  }
+  .xs-none{
+    display: none;
+  }
+  .Check-Available{
+    display: none;
+  }
+  .card-contant {
+    width: auto;
+}
+}
+
+@media (max-width: 320px) {
+  .poll {
+    width: 330px;
+  }
+  .card-contant {
+    width: auto;
+}
+.xs-none{
+  display: none;
+}
+.Check-Available{
+  display: none;
+}
+  /* .margin-button {
+    margin-left: 15px;
+    margin-right: 15px;
+  } */
+
+  .cab-image {
+    height: 170px;
+  }
+
+  .Check-Available {
+    width: 73%;
+    top: 60%;
+    left: 40px;
+  }
+
+  .check-position {
+    top: 86%;
+    display: none;
+  }
+
+  .form-input {
+    width: 74%;
+  }
+
+  .search-icon {
+    margin-left: 46px;
+    position: absolute;
+    top: 165px;
+  }
+
+  .container-create {
+    width: 104%;
+  }
+
+  #tiny-slider {
+    margin-top: 130px;
+  }
+}
